@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    padding: 45px 65px;
+     /* background-color: #da332d;  */
+    /* height: 100vh; */
+    background-image:linear-gradient(rgb(218, 53, 47,0.5),rgb(218, 53, 47,0.5)), url('../images/Layer 5.jpg') ;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* to fix the background part at one position.ie if we scroll down/up it will not get scrolled */
+    overflow: hidden;
+}
+.hero-section header{
+    margin-bottom: 145px;
+} 
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.navbar ul
+{padding-top: 15px;}
+
+
+
+
+.navbar ul li a{
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.7s linear;
+}
+
+.navbar ul li a:hover::after{
+    width: 100%;
+
+}
+
+
+.chocolate-Info h1{
+    font-size: 52px;
+font-weight:bold ;
+color: #fff;
+margin-bottom: 60px;
+text-transform: uppercase;
+}
+
+.chocolate-Info p{
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom:50px;
+}
+
+.chocolate-Info a{
+    background-color: #282828;
+    color:#fff;
+    padding: 15px 50px 15px 35px;
+    border-radius: 45px;
+}
+
+.chocolate-Info a i{
+    margin-right: 25px;
+    font-size: 45px;vertical-align: middle;
+}
+
+.chocolate-Info a:hover{
+    box-shadow: 5px 5px 10px 2px #fff;
+
+}
+
+.hero-section .mobImg{
+    position: relative;
+}
+
+.hero-section .mobImg img{
+    position: absolute;
+    right: -40px;
+    top: -20px;
+    width: 95%;
+}
+    
+
+/*.....................................................hero section end...............................................................*/
+
+.app-features{
+    padding: 85px 0 100px;
+}
+
+
+.app-features .features-heading h1{
+    font: size 52px;
+    font-weight: bold;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    /* text-transform: uppercase; means all letters should be capial
+    text-transform: capitalize ; means only 1st letter of word should be capial*/
+    margin-bottom: 45px;
+}
+
+.app-features .features-heading p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #3a3a3a;
+    margin-bottom: 65px;
+}
+
+
+/*konsi bhi image ho ->>img ke immediate parent ko height width de dijiye*/
+
+.featuresInfo figure{
+    width:180px;
+    height: 180px;
+    margin: 0 auto 35px;
+}
+
+
+/* fir img ko width 100% aur height 100% dijiye*/
+/* and object-fit:cover dikiye*/
+.featuresInfo figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.featuresInfo h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1a1a ;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+
+}
+.featuresInfo p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #646464
+
+}
+
+
+/*##############################################   app-features section end   ########################################################*/
+
+
+
+
+.fruitsection{
+    padding: 200px 0 170px;
+    background-image: url(../images/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+.fruitsection h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.fruitsection p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #585858;
+    margin-bottom: 70px;
+    width: 75%;
+}
+
+.fruitsection a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #d9332d;
+    border: 2px solid #d9332d;
+    padding: 20px 25px;
+    border-radius: 40px;
+    transition: all 0.7s linear;
+    text-transform: uppercase;
+
+}
+
+.fruitsection a:hover{
+    color: #d9332d;
+    background-color: #fff;
+    border: 2px solid #d9332d;
+}
+
+
+
+/*################################################    fruitsection end    #################################################*/
+
+
+.popularpost-section{
+    padding: 120px 0 150px;
+    background-color: #2e2e38;
+}
+.popularpost-section .post-logo{
+    margin-bottom: 60px ;
+} 
+
+.popularpost-section .f-list .box{
+    width: 55px;
+    height: 40px;
+    background-color: #e74c3c;
+}
+
+
+.f-list h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+
+.f-list ul li{
+    display: table;
+    clear: both;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.f-list ul li div{
+    float: left;
+    /*by using
+    display : inline-block also we can do this*/
+} 
+
+.f-list .donut-info{
+    margin-left:15px ;
+    padding-top: 5px;
+}
+
+.f-list .donut-info p{
+    font-size:15px ;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.suits-list li{
+    color: #fff;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.suits-list .list-1{
+    font-weight: bold;
+    font-size:14.03px ;  
+    margin-bottom: 11px; 
+}
+.suits-list .list-2{
+    font-weight: 400;
+    font-size:11.02px ;  
+    margin-bottom: 30px;
+}
+.suits-list .list-3{
+    font-weight: 400;
+    font-size:15.03px ; 
+    margin-bottom: 30px;  
+}
+.suits-list .list-4{
+    font-weight: bold;
+    font-size:14.03px ;    
+}
+
+.about-section p{
+    font-size:15.3px ;
+    font-weight: lighter;
+    color: #fff;
+}
+
+
+/*#####################################################  Footer section  ############################################################*/
+.footer {
+    padding: 50px 0 40px;
+    background-color: #d7dedc;
+    
+}
+
+.footer .footer-links .icons {
+    font-size: 26px;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer .footer-links .icons .facebook {
+    color: #4661a0;
+    transition: all 0.7s linear;
+    margin-right: 15px;
+}
+
+
+.footer .footer-links .icons .dribbble {
+    color: #dc3b7b;
+    transition: all 0.7s linear;
+    margin-right: 15px;
+}
+
+.footer .footer-links .icons .twitter {
+    color: #26628d;
+    transition: all 0.7s linear;
+    margin-right: 15px;
+}
+
+
+
+.footer .footer-links .icons .twitter:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    text-shadow: 3px 3px 6px#585858;
+}
+.footer .footer-links .icons .dribbble:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    text-shadow: 3px 3px 6px#585858;
+}
+.footer .footer-links .icons .facebook:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    text-shadow: 3px 3px 6px#585858;
+}
